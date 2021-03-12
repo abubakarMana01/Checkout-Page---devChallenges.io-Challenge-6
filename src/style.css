@@ -42,6 +42,7 @@ section.top .item-image {
 
 section.top img {
 	width: 150px;
+	height: 152px;
 	border-radius: 12px;
 }
 
@@ -337,6 +338,7 @@ footer p a {
 @media only screen and (max-width: 370px) {
 	section.top img {
 		width: 80px;
+		height: 81px;
 	}
 	.top .item .item-info .quantity {
 		width: 90px;
