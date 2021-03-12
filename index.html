@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css"
+		/>
+
+		<link rel="stylesheet" href="src/style.css" />
+		<title>Checkout Page Challenge</title>
+	</head>
+	<body>
+		<header><h1>Checkout</h1></header>
+		<main>
+			<section class="top">
+				<div class="items">
+					<div class="item">
+						<div class="item-image">
+							<img src="./src/img/photo1.png" />
+						</div>
+
+						<div class="item-info">
+							<div class="price">
+								<h3>Vintage Backbag</h3>
+								<div class="text">
+									<p>$54.99</p>
+									<span>$94.99</span>
+								</div>
+							</div>
+							<div class="quantity">
+								<div class="box1">-</div>
+								<div class="box2">1</div>
+								<div class="box3">+</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="item-image">
+							<img src="./src/img/photo2.png" />
+						</div>
+
+						<div class="item-info">
+							<div class="price">
+								<h3>Levi Shoes</h3>
+								<div class="text">
+									<p>$74.99</p>
+									<span>$124.99</span>
+								</div>
+							</div>
+							<div class="quantity">
+								<div class="box1">-</div>
+								<div class="box2">1</div>
+								<div class="box3">+</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="calculations">
+					<div class="shipping">
+						<p>Shipping</p>
+						<p>$19</p>
+					</div>
+					<div class="total">
+						<p>Total</p>
+						<p>$148.98</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="bottom">
+				<div class="contact-info">
+					<form autocomplete="off">
+						<h1>Contact information</h1>
+						<div class="email">
+							<label for="email">Email</label>
+							<span class="material-icons">
+								local_post_office
+							</span>
+							<input
+								type="email"
+								id="email"
+								name="email"
+								placeholder="Enter your email..."
+							/>
+						</div>
+						<div class="phone">
+							<label for="phone">Phone</label>
+							<span class="material-icons icon"> call </span>
+							<input
+								type="tel"
+								id="phone"
+								name="phone"
+								placeholder="Enter your phone..."
+							/>
+						</div>
+					</form>
+				</div>
+				<div class="shipping-address">
+					<form autocomplete="off">
+						<h1>Shipping address</h1>
+						<div class="email">
+							<label for="name">Full name</label>
+							<span class="material-icons"> account_circle </span>
+							<input
+								type="text"
+								id="name"
+								name="name"
+								value="Rodney Cotton"
+							/>
+						</div>
+						<div class="address">
+							<label for="address">Address</label>
+							<span class="material-icons"> home </span>
+							<input
+								type="tel"
+								id="address"
+								name="address"
+								placeholder="Your address..."
+							/>
+						</div>
+						<div class="city">
+							<label for="city">City</label>
+							<span class="material-icons"> location_city </span>
+
+							<input
+								type="tel"
+								id="city"
+								name="city"
+								placeholder="Your city..."
+							/>
+						</div>
+						<div class="country-postal">
+							<div class="country">
+								<label for="country">Country</label>
+								<span class="material-icons">
+									location_city
+								</span>
+
+								<input
+									type="tel"
+									id="country"
+									name="country"
+									placeholder="Your country..."
+								/>
+							</div>
+							<div class="postal-code">
+								<label for="postal-code">Postal code</label>
+								<span class="material-icons"
+									>markunread_mailbox
+								</span>
+								<input
+									type="tel"
+									id="postal-code"
+									name="postal-code"
+									placeholder="Your postal code..."
+								/>
+							</div>
+						</div>
+						<div class="save-info">
+							<input type="checkbox" name="save" id="save" />
+							<p>Save this information for next time</p>
+						</div>
+						<button type="submit">Continue</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<p>
+				created by
+				<a href="https://github.com/abubakarMana01/">abubakarMana01</a>
+				- devChallenges.io
+			</p>
+		</footer>
+	</body>
+</html>
